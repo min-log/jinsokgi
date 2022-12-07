@@ -23,30 +23,18 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 #contentAnchor {position:absolute;top:0;left:0;text-indent:-9999px;overflow:hidden;}
 
 /* 헤더 부분 */
-header {position:absolute;top:40px;left:0;width:100%;z-index:9000;}
-header .logo {background:url('../../images/com/logo.png') center no-repeat;background-size:100% auto;width:90px;height:120px;display:block;}
 
 /* 푸터영역 */
-footer {position:absolute;bottom:40px;left:0;width:100%;z-index:1;color:#0020ef;font-family:"SF";}
 
 
 /* 컨텐츠영역 */
 body{overflow:hidden;}
-#container {height:100vh;box-sizing:border-box;}
 .inner {max-width:1158px;width:100%;margin:0 auto;}
 
 
 
-
 @media screen and (max-width:1158px) {
-	header {width:auto;}
-	footer {width:auto;}
 	
-	
-	#container {height:auto;}
-
-	.inner {width:calc(100% - 80px);margin:0 40px;box-sizing:border-box;}	
-
 }
 
 @media screen and (max-width:800px) {
@@ -54,13 +42,6 @@ body{overflow:hidden;}
 }
 @media screen and (max-width:720px) {
 	/* 헤더 부분 */
-	header {top:20px;}
-	header .logo {width:45px;height:60px;}
-
-	/* 푸터영역 */
-	footer {bottom:20px;font-size:11px;}
-	footer p {font-size:11px;}
-	.inner {width:calc(100% - 40px);margin:0 20px;}	
 
 }
 
