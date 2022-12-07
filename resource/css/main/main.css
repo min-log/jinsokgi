@@ -27,7 +27,7 @@
 
 .section_02 {}
 .section_02 .inner {display:flex;align-items: center;}
-.location_map {height:547px;width:653px;background:#999;}
+
 .location_txt {}
 .location_txt h2 {font-size:29px;color:#1d1d1d;}
 .location_txt .address {font-size:23px;color:#999;}
@@ -38,14 +38,14 @@
 .location_txt table td a {color:#999;}
 
 
-
+.map_wrap {position:relative;overflow:hidden;height:547px;width:653px;}
+.map_wrap .location_map {height:547px;width:653px;}
 
 .customoverlay {position:relative;bottom: 0;transform:translate(-14% ,-146%);background: #999;}
 .customoverlay:nth-of-type(n) {border:0;}
 .customoverlay a {display:block;text-decoration:none;text-align:center;font-size:14px;font-weight:bold;overflow:hidden;}
 .customoverlay .title {display:block;text-align:center;/* background:#fff; *//* margin-right:35px; *//* padding:10px 15px; */font-size:16px;color: #fff;width: 118px;height: 25px;box-sizing: border-box;line-height: 25px;}
 
-.map_wrap {position:relative;overflow:hidden;width:100%;height:350px;}
 .radius_border{border:1px solid #919191;border-radius:5px;}     
 .custom_typecontrol {position:absolute;top:10px;right:10px;overflow:hidden;width:130px;height:30px;margin:0;padding:0;z-index:1;font-size:12px;font-family:'Malgun Gothic', '맑은 고딕', sans-serif;}
 .custom_typecontrol span {display:block;width:65px;height:30px;float:left;text-align:center;line-height:30px;cursor:pointer;}
