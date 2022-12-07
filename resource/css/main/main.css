@@ -16,7 +16,7 @@
 .main_banner .main_banner_txt p {margin-bottom:80px;font-size:33px;line-height:60px;}
 
 
-.main_btn_wrap {display: flex;background:#fff;box-shadow:;}
+.main_btn_wrap {display: flex;background:#fff;box-shadow:3px 4px 30px #999 !important;-moz-box-shadow:3px 4px 30px #999;-webkit-box-shadow:3px 4px 30px #999;}
 .main_btn_wrap li {width:calc(100% / 4);height:342px;position: relative;}
 .main_btn_wrap li + li:after {content:'';width:0;height:267px;border-left:2px solid #999;position: absolute;top:50%;left:0;transform: translateY(-50%);}
 .main_btn_wrap li a {height:100%;display:flex;font-size:33px;color:#999;flex-wrap: wrap;gjustify-content: center;align-items: center;flex-direction: column;justify-content:center;}
@@ -29,4 +29,5 @@
 .location_txt table th,
 .location_txt table td {text-align:left;font-size:23px;}
 .location_txt table th {color:#1d1d1d;}
-.location_txt table td {color:#999;}
+.location_txt table td,
+.location_txt table td a {color:#999;}
