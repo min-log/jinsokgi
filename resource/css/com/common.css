@@ -69,8 +69,7 @@ body{}
 #quickBar .quick_kakao .quick_kakao_bottom {background:#3b2929;color:#fff;font-size:5px;display:flex;align-items:center;justify-content:center;}
 #quickBar .quick_kakao .quick_kakao_bottom img {margin-right:6px;}
 */
-
-.btn_top {width:56px;height:56px;background:#999;position:absolute;right:0;bottom:0;}
+.btn_top {width:56px;height:56px;background:#999;position:absolute;right:36px;transform: translateY(-100%);z-index:1;}
 .btn_top img {display:block;width:100%;}
 @media screen and (max-width:1158px) {
 	
