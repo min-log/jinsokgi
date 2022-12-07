@@ -31,11 +31,19 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 body{}
 .inner {max-width:1158px;width:100%;margin:0 auto;}
 
-#header {position:fixed;top:0;left:0;width:100%;background:#fff;}
-#header .inner {width:;overflow:hidden;}
-#header .logo {float:left;}
-#header .gnb {float:left;}
-#header .application_btn {float:left;}
+#header {position:absolute;top:0;left:0;width:100%;background:#fff;z-index:2000;}
+#header .inner {width:1820px;position:relative;}
+#header .logo {position:absolute;top:0;left:0;z-index:2001;}
+#header .gnb {display: flex;flex-direction: row;justify-content: center;align-items: flex-start;}
+#header .gnb > li {position: relative;}
+#header .gnb > li:after {content:'';position:absolute;left:0;top:0;width:0;height:17px;border-left:3px solid #fff}
+#header .gnb > li > a {padding:0 30px;font-size:20px;display:block;}
+#header .gnb .deps {background:#999999;position:absolute;top:100%;left:0;width:100%;}
+#header .gnb .deps li {}
+#header .gnb .deps li + li {border-top:1px solid #fff}
+#header .gnb .deps a {font-size:15px;color:#fff;display:block;}
+
+#header .application_btn {position:absolute;top:0;right:0;z-index:2001;}
 
 @media screen and (max-width:1158px) {
 	
