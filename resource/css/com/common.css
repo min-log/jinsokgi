@@ -52,7 +52,7 @@ body{}
 #footer .footer_con li {line-height:30px;}
 #footer .footer_copyright {font-size: 16px;padding-top:44px;}
 
-#quickBar {position:fixed;top:50%;right:0;transform:translateY(-50%);width:134px;background:#fff;}
+#quickBar {position:fixed;top:50%;right:0;transform:translateY(-50%);width:134px;background:#fff;z-index:100;}
 #quickBar h2 {font-size:20px;line-height:1.2;padding:30px 0;width:100%;background:#999;color:#fff;text-align:center;box-sizing:border-box;}
 #quickBar .quick_list {}
 #quickBar .quick_list li {width:134px;box-sizing:border-box;border-bottom:1px solid #999;}
