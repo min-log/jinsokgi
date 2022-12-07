@@ -48,8 +48,9 @@ body{}
 #footer * {color:#999;}
 #footer .inner {text-align:center;}
 #footer .footer_tit {font-size:24px;}
-#footer .footer_con {font-size: 16px;}
-#footer .footer_copyright {font-size: 16px;}
+#footer .footer_con {font-size: 16px;padding-top:44px;}
+#footer .footer_con li {line-height:30px;}
+#footer .footer_copyright {font-size: 16px;padding-top:44px;}
 
 @media screen and (max-width:1158px) {
 	
