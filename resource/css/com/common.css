@@ -60,13 +60,18 @@ body{}
 #quickBar .quick_list li a .tit {font-size:20px;}
 #quickBar .quick_list li a img {width:40px;display:block;margin:0 auto;}
 #quickBar .quick_list li a span {font-size:13px;line-height:16px;display:block;}
-#quickBar .quick_list li a p {font-size:;}
+#quickBar .quick_list li a p {font-size:20px;}
 #quickBar .quick_kakao {width:100%;display:block;text-align:center;}
+#quickBar .quick_kakao img {width:100%;}
+/*
 #quickBar .quick_kakao .quick_kakao_top {background:#fae101;font-size:12px;}
 #quickBar .quick_kakao .quick_kakao_top span {background:#3b2929;color:#fff;font-size:12px;border-radius:8px;display:block;width:90px;height:19px;margin:0 auto;}
 #quickBar .quick_kakao .quick_kakao_bottom {background:#3b2929;color:#fff;font-size:5px;display:flex;align-items:center;justify-content:center;}
 #quickBar .quick_kakao .quick_kakao_bottom img {margin-right:6px;}
+*/
 
+.btn_top {width:56px;height:56px;background:#999;position:absolute;right:0;bottom:0;}
+.btn_top img {display:block;width:100%;}
 @media screen and (max-width:1158px) {
 	
 }
