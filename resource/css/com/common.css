@@ -24,13 +24,10 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 /*접근성*/
 .ally-hidden {overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;margin:0;padding:0;background:none;font-size:0;line-height:0;text-indent:-99999px}/* 헤더 부분 */
 
-/* 푸터영역 */
-
-
 /* 컨텐츠영역 */
 body{}
 .inner {max-width:1158px;width:100%;margin:0 auto;}
-
+/* header */
 #header {position:absolute;top:0;left:0;padding:48px 0 18px 0;width:100%;z-index:2000;}
 #header .inner {max-width:inherit;width:calc(100% - 80px);position:relative;}
 #header .logo {position:absolute;top:0;left:0;z-index:2001;}
@@ -45,6 +42,15 @@ body{}
 
 #header .application_btn {height:42px;margin-top:-21px;padding:0 12px;font-size:20px;position:absolute;top:50%;right:0;z-index:2001;color:#fff;background:#999;border-radius:8px;display: flex;justify-content: center;align-items: center;flex-wrap: nowrap;flex-direction: row;}
 #header .application_btn img {margin-right:8px;}
+
+/* footer */
+#footer {background:#1d1d1d;padding:44px 0 70px;}
+#footer * {color:#999;}
+#footer .inner {text-align:center;}
+#footer .footer_tit {font-size:24px;}
+#footer .footer_con {font-size: 16px;}
+#footer .footer_copyright {font-size: 16px;}
+
 @media screen and (max-width:1158px) {
 	
 }

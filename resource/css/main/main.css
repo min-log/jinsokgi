@@ -1,5 +1,6 @@
-.main_banner  {position:relative;}
+@charset "utf-8";
 
+.main_banner  {position:relative;}
 .main_banner .main_banner_img {position: relative;}
 .main_banner .main_banner_img .slick-list {}
 .main_banner .main_banner_img .slick-slide {width:100vw;height:100vh;background-size:cover !important;background-repeat:no-repeat !important;background-position:center !important;}
@@ -18,4 +19,14 @@
 .main_btn_wrap {display: flex;background:#fff;box-shadow:;}
 .main_btn_wrap li {width:calc(100% / 4);height:342px;position: relative;}
 .main_btn_wrap li + li:after {content:'';width:0;height:267px;border-left:2px solid #999;position: absolute;top:50%;left:0;transform: translateY(-50%);}
-.main_btn_wrap li a {height:100%;display:flex;font-size:33px;color:#999;flex-wrap: wrap;gjustify-content: center;align-items: center;flex-direction: column;}
+.main_btn_wrap li a {height:100%;display:flex;font-size:33px;color:#999;flex-wrap: wrap;gjustify-content: center;align-items: center;flex-direction: column;justify-content:center;}
+.main_btn_wrap li a .tit {line-height:1;}
+.main_btn_wrap li a img {margin-bottom:40px;}
+
+.location_txt {}
+.location_txt h2 {font-size:29px;color:#1d1d1d;}
+.location_txt .address {font-size:23px;color:#999;}
+.location_txt table th,
+.location_txt table td {text-align:left;font-size:23px;}
+.location_txt table th {color:#1d1d1d;}
+.location_txt table td {color:#999;}
