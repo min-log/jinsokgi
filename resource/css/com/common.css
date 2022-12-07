@@ -26,7 +26,7 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 
 /* 컨텐츠영역 */
 body{}
-.inner {max-width:1158px;width:100%;margin:0 auto;}
+.inner {max-width:1474px;width:100%;margin:0 auto;}
 /* header */
 #header {position:absolute;top:0;left:0;padding:48px 0 18px 0;width:100%;z-index:2000;}
 #header .inner {max-width:inherit;width:calc(100% - 80px);position:relative;}
