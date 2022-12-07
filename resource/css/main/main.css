@@ -38,7 +38,7 @@
 .location_txt table td a {color:#999;}
 
 
-.customoverlay {position:relative;bottom: 0;transform: translateY(-100%);background: #999;}
+.customoverlay {position:relative;bottom: 0;transform:translate(-14% ,-146%);background: #999;}
 .customoverlay:nth-of-type(n) {border:0;}
 .customoverlay a {display:block;text-decoration:none;text-align:center;font-size:14px;font-weight:bold;overflow:hidden;}
-.customoverlay .title {display:block;text-align:center;/* background:#fff; *//* margin-right:35px; *//* padding:10px 15px; */font-size:14px;font-weight:bold;color: #fff;width: 118px;height: 25px;box-sizing: border-box;line-height: 25px;}
+.customoverlay .title {display:block;text-align:center;/* background:#fff; *//* margin-right:35px; *//* padding:10px 15px; */font-size:16px;color: #fff;width: 118px;height: 25px;box-sizing: border-box;line-height: 25px;}

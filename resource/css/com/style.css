@@ -29,7 +29,7 @@ caption,.hidden{text-indent:-9900px;top:0;width:0;height:0;overflow:hidden;font-
 table {border-spacing: 0;table-layout:fixed;}
 *:first-child+html table {border-collapse:collapse;border-spacing:0;}
 em {font-style:inherit;}
-body {cursor: grab;}
+
 
 /* margin + padding */
 .mt0 {margin-top:0px !important;}   .mb0 {margin-bottom:0 !important;} 
