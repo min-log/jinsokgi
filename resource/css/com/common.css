@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+/*==========================================================================
+common - header / footer 
+==========================================================================*/
+
+/* common */
+#skipNav{position:absolute;width:100%;overflow:hidden;z-index:11;}
+#skipNav a{display:block; height:1px; margin-bottom:-1px; overflow:hidden; text-align:center; text-decoration:none; color:#333; font-size:12px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{display:block;height:auto;padding:5px 0; background:#f2f2f2;}
+
+/* skipnavi */
+#skipToContent{overflow:hidden; position:absolute;left:0;top:0; width:100%; z-index:2000000000;}
+#skipToContent dt,#skipToContent dd{margin-left:0;}
+#skipToContent .hid { position: absolute; left: 0; top:0;}
+a.skip01,a.skip02 {display:block; font-size:0; height: 1px; line-height:0; margin:0 -1px -1px 0; overflow:hidden;text-align:center; width:1px;}
+a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.skip02:active {background:#a6096e; color:#fff; font-size:12px; font-weight:bold; margin:0; height:20px; line-height:18px; margin:0; padding:4px 0; width:auto;}
+
+
+#toTop {position:absolute; right:0; top:-44px;z-index:99999;}
+#wrap {width:100%;/*min-width:1200px;max-width:2000px;*/margin:0 auto;position:relative;} /* 180723 반응형처리 min-위드스 삭제*/
+#gnbAnchor {position:absolute;top:0;left:0;text-indent:-9999px;overflow:hidden;}
+#contentAnchor {position:absolute;top:0;left:0;text-indent:-9999px;overflow:hidden;}
+
+/* 헤더 부분 */
+header {position:absolute;top:40px;left:0;width:100%;z-index:9000;}
+header .logo {background:url('../../images/com/logo.png') center no-repeat;background-size:100% auto;width:90px;height:120px;display:block;}
+
+/* 푸터영역 */
+footer {position:absolute;bottom:40px;left:0;width:100%;z-index:1;color:#0020ef;font-family:"SF";}
+
+
+/* 컨텐츠영역 */
+body{overflow:hidden;}
+#container {height:100vh;box-sizing:border-box;}
+.inner {max-width:1158px;width:100%;margin:0 auto;}
+
+
+
+
+@media screen and (max-width:1158px) {
+	header {width:auto;}
+	footer {width:auto;}
+	
+	
+	#container {height:auto;}
+
+	.inner {width:calc(100% - 80px);margin:0 40px;box-sizing:border-box;}	
+
+}
+
+@media screen and (max-width:800px) {
+
+}
+@media screen and (max-width:720px) {
+	/* 헤더 부분 */
+	header {top:20px;}
+	header .logo {width:45px;height:60px;}
+
+	/* 푸터영역 */
+	footer {bottom:20px;font-size:11px;}
+	footer p {font-size:11px;}
+	.inner {width:calc(100% - 40px);margin:0 20px;}	
+
+}
+
+@media screen and (max-width:340px) {
+	
+}
