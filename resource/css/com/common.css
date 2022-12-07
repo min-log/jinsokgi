@@ -21,8 +21,8 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 #wrap {width:100%;/*min-width:1200px;max-width:2000px;*/margin:0 auto;position:relative;} /* 180723 반응형처리 min-위드스 삭제*/
 #gnbAnchor {position:absolute;top:0;left:0;text-indent:-9999px;overflow:hidden;}
 #contentAnchor {position:absolute;top:0;left:0;text-indent:-9999px;overflow:hidden;}
-
-/* 헤더 부분 */
+/*접근성*/
+.ally-hidden {overflow:hidden;position:absolute;left:-9999px;width:1px;height:1px;margin:0;padding:0;background:none;font-size:0;line-height:0;text-indent:-99999px}/* 헤더 부분 */
 
 /* 푸터영역 */
 
