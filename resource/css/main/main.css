@@ -16,6 +16,6 @@
 
 
 .main_btn_wrap {display: flex;background:#fff;box-shadow:;}
-.main_btn_wrap li {position: relative;}
+.main_btn_wrap li {width:calc(100% / 4);height:342px;position: relative;}
 .main_btn_wrap li + li:after {content:'';widt:0;height:;border-left:1px solid #999;}
-.main_btn_wrap li a {display:block;color:;font-size:33px;color:#999;}
+.main_btn_wrap li a {display:flex;font-size:33px;color:#999;flex-wrap: wrap;justify-content: center;align-items: center;flex-direction: column;}
