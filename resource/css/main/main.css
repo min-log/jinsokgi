@@ -17,5 +17,5 @@
 
 .main_btn_wrap {display: flex;background:#fff;box-shadow:;}
 .main_btn_wrap li {width:calc(100% / 4);height:342px;position: relative;}
-.main_btn_wrap li + li:after {content:'';widt:0;height:;border-left:1px solid #999;}
-.main_btn_wrap li a {display:flex;font-size:33px;color:#999;flex-wrap: wrap;justify-content: center;align-items: center;flex-direction: column;}
+.main_btn_wrap li + li:after {content:'';width:0;height:267px;border-left:2px solid #999;position: absolute;top:50%;left:0;transform: translateY(-50%);}
+.main_btn_wrap li a {height:100%;display:flex;font-size:33px;color:#999;flex-wrap: wrap;gjustify-content: center;align-items: center;flex-direction: column;}
