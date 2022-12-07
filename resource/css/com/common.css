@@ -31,7 +31,11 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 body{overflow:hidden;}
 .inner {max-width:1158px;width:100%;margin:0 auto;}
 
-
+#header {position:fixed;top:0;left:0;width:100%;background:#fff;}
+#header .inner {width:;overflow:hidden;}
+#header .logo {float:left;}
+#header .gnb {float:left;}
+#header .application_btn {float:left;}
 
 @media screen and (max-width:1158px) {
 	
