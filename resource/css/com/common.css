@@ -52,18 +52,18 @@ body{}
 #footer .footer_con li {line-height:30px;}
 #footer .footer_copyright {font-size: 16px;padding-top:44px;}
 
-#quickBar {position:fixed;top:0;right:0;width:132px;}
-#quickBar h2 {font-size:20px;line-height:2;width:100%;background:#999;color:#fff;}
+#quickBar {position:fixed;top:0;right:0;width:134px;background:#fff;}
+#quickBar h2 {font-size:20px;line-height:2;width:100%;background:#999;color:#fff;text-align:center;}
 #quickBar .quick_list {}
-#quickBar .quick_list li {width:132px;box-sizing:border-box;border-bottom:1px solid #999;}
-#quickBar .quick_list li a {display: block;width:100%;color:#999}
+#quickBar .quick_list li {width:134px;box-sizing:border-box;border-bottom:1px solid #999;}
+#quickBar .quick_list li a {display: block;width:100%;color:#999;text-align:center;}
 #quickBar .quick_list li a .tit {font-size:20px;}
 #quickBar .quick_list li a img {width:40px;display:block;margin:0 auto;}
-#quickBar .quick_list li a span {font-size:13px;line-height:16px;}
+#quickBar .quick_list li a span {font-size:13px;line-height:16px;display:block;}
 #quickBar .quick_list li a p {font-size:;}
-#quickBar .quick_kakao {width:100%;display:block;}
+#quickBar .quick_kakao {width:100%;display:block;text-align:center;}
 #quickBar .quick_kakao .quick_kakao_top {background:#fae101;font-size:12px;}
-#quickBar .quick_kakao .quick_kakao_top span {background:#3b2929;color:#fff;font-size:12px;border-radius:8px;}
+#quickBar .quick_kakao .quick_kakao_top span {background:#3b2929;color:#fff;font-size:12px;border-radius:8px;display:block;width:160px;height:19px;margin:0 auto;}
 #quickBar .quick_kakao .quick_kakao_bottom {background:#3b2929;color:#fff;font-size:5px;display:flex;align-items:center;justify-content:center;}
 #quickBar .quick_kakao .quick_kakao_bottom img {margin-right:6px;}
 
