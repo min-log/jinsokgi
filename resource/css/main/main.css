@@ -25,14 +25,15 @@
 .main_btn_wrap li a img {margin-bottom:40px;}
 
 
-.section_02 {}
+.section_02 {padding:150px 0;}
 .section_02 .inner {display:flex;justify-content: center;}
 
 .location_txt {margin-left:100px;}
 .location_txt h2 {font-size:29px;color:#1d1d1d;}
-.location_txt .address {font-size:23px;color:#999;}
+.location_txt .address {margin-top:24px;font-size:23px;color:#999;}
+.location_txt table {margin-top:50px;}
 .location_txt table th,
-.location_txt table td {text-align:left;font-size:23px;}
+.location_txt table td {text-align:left;font-size:23px;padding:10px 0;}
 .location_txt table th {color:#1d1d1d;}
 .location_txt table td,
 .location_txt table td a {color:#999;}
