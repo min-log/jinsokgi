@@ -9,8 +9,9 @@ $(function(){
 		slidesToShow : 1,
 		slidesToScroll : 1,
 		arrows : false, 
-		autoplay : false,
-		dots: true
+		autoplay : true,
+		dots: true,
+		autoplaySpeed: 10000,
 	
 	});
 	
