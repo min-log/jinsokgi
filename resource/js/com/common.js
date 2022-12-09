@@ -4,7 +4,7 @@ header
 ========================================================*/
 $(function(){
 
-	$('#header .gnb > li > a').on('mouseover',function(){
+	$('#header .gnb > li > a').addEventListener('mouseover',function(){
 
 		$(this).parent('li').find('.deps').addClass('on')
 	});
