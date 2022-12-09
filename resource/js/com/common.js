@@ -6,9 +6,9 @@ $(function(){
 	let gnbEl = $('#header .gnb > li');
 	
 	gnbEl.on('mouseover', function () {
-		$(this).parent('li').find('.deps').stop().slideDown(300);
+		$(this).find('.deps').stop().slideDown(300);
 	}).on('mouseleave', function () {
-		$(this).parent('li').find('.deps').stop().slideUp(300);
+		$(this).find('.deps').stop().slideUp(300);
 	});
 
 
