@@ -3,12 +3,11 @@
 header
 ========================================================*/
 $(function(){
-	let gnbEl = $('#header .gnb > li > a');
+	let gnbEl = $('#header .gnb > li');
 	
 	gnbEl.on('mouseover', function () {
 		$(this).parent('li').find('.deps').stop().slideDown(300);
-	});
-	gnbEl.on('mouseleave', function () {
+	}).on('mouseleave', function () {
 		$(this).parent('li').find('.deps').stop().slideUp(300);
 	});
 
