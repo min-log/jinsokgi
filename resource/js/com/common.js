@@ -5,7 +5,7 @@ header
 $(function(){
 	let gnbEl = $('#header .gnb > li');
 	
-	gnbEl.on('mouseover', function () {
+	gnbEl.on('mouseenter', function () {
 		$(this).find('.deps').stop().slideDown(300);
 	}).on('mouseleave', function () {
 		$(this).find('.deps').stop().slideUp(300);
