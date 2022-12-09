@@ -3,8 +3,8 @@
 header
 ========================================================*/
 $(function(){
-
-	$('#header .gnb > li > a').addEventListener('mouseover',function(){
+	let gnbEl = document.querySelector('#header .gnb > li > a')
+	gnbEl.addEventListener('mouseover', function () {
 
 		$(this).parent('li').find('.deps').addClass('on')
 	});
