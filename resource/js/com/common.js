@@ -3,11 +3,14 @@
 header
 ========================================================*/
 $(function(){
-	let gnbEl = $('#header .gnb > li');
+	const gnbEl = $('#header .gnb > li');
 	
 	gnbEl.on('mouseenter', function () {
+		console.log('올렸다')
 		$(this).find('.deps').stop().slideDown(300);
+
 	}).on('mouseleave', function () {
+		console.log('내렸다')
 		$(this).find('.deps').stop().slideUp(300);
 	});
 
