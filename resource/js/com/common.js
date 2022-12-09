@@ -38,7 +38,7 @@ $(function(){
 
 		//console.log(footerT + '/' + scrollPoint + '/' + scrollPointH)
 		
-		if (scrollPointH >= footerT) {
+		if (scrollPointH >= footerT + 92) {
 			QuickBar.addClass('fixednone');
 		}else{
 			QuickBar.removeClass('fixednone');
