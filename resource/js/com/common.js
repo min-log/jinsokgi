@@ -24,8 +24,6 @@ function scrollTop() {
 
 
 $(function(){
-	//header
-	// 메인 사이트 플루팅 동작
 	const WindowH = $(window).innerHeight(); // 윈도우 높이
 	const QuickBar = $('#quickBar');
 	const QuickBarH = QuickBar.innerHeight(); // 퀵 높이
@@ -38,13 +36,12 @@ $(function(){
 		const constrol = 40;
 		const footerT = $('#footer').offset().top; //푸터 컨텐츠 높이
 
-		//메인 페이지 quick bar
-		console.log(footerT + '/' + scrollPoint + '/' + scrollPointH)
+		//console.log(footerT + '/' + scrollPoint + '/' + scrollPointH)
 		
-		if (scrollPoint >= footerT) {
-			QuickBar.addClass('fixed');
+		if (scrollPointH >= footerT) {
+			QuickBar.addClass('fixednone');
 		}else{
-			QuickBar.removeClass('fixed');
+			QuickBar.removeClass('fixednone');
 		}
 	});
 
