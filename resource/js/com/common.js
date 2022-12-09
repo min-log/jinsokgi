@@ -34,11 +34,11 @@ $(function(){
 	//scroll event
 	$(document).scroll(function () {
 		const scrollPoint = $(window).scrollTop(); // 현제 스크롤 위치 
-		const scrollPointH = $(window).scrollTop() + WindowH; // 현제 스크롤 위치 // 현제 스크롤 높이 + 전체 컨텐츠
+		const scrollPointH = $(window).scrollTop() - WindowH; // 현제 스크롤 위치 // 현제 스크롤 높이 + 전체 컨텐츠
 		const constrol = 40;
 
 		//메인 페이지 quick bar
-		console.log(footerT + '/' + scrollPointH)
+		console.log(footerT + '/' + scrollPoint)
 		
 		if (scrollPoint > footerT) {
 			QuickBar.removeClass('fixed');
