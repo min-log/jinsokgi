@@ -6,11 +6,8 @@ $(function(){
 	const gnbEl = $('#header .gnb > li');
 	
 	gnbEl.on('mouseenter', function () {
-		console.log('올렸다')
 		$(this).find('.deps').stop().slideDown(300);
-
 	}).on('mouseleave', function () {
-		console.log('내렸다')
 		$(this).find('.deps').stop().slideUp(300);
 	});
 
@@ -43,7 +40,7 @@ $(function(){
 		//메인 페이지 quick bar
 		console.log(footerT + '/' + scrollPointH)
 		
-		if (scrollPointH > footerT) {
+		if (scrollPoint > footerT) {
 			QuickBar.removeClass('fixed');
 		}else{
 			QuickBar.addClass('fixed');
