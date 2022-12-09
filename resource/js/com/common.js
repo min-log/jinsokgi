@@ -26,34 +26,32 @@ function scrollTop() {
 
 
 
+$(function(){
+	//header
+	// 메인 사이트 플루팅 동작
+	const WindowH = $(window).innerHeight(); // 윈도우 높이
+	const QuickBar = $('#quickBar');
+	const QuickBarH = QuickBar.innerHeight(); // 퀵 높이
+	const footerT = $('#footer').offset().top; //푸터 컨텐츠 높이
+
+	//scroll event
+	$(document).scroll(function () {
+		const scrollPoint = $(window).scrollTop(); // 현제 스크롤 위치 
+		const scrollPointH = $(window).scrollTop() + WindowH; // 현제 스크롤 위치 // 현제 스크롤 높이 + 전체 컨텐츠
+		const constrol = 40;
+
+		//메인 페이지 quick bar
+		console.log(footerT + '/' + scrollPointH)
+		
+		if (scrollPointH > footerT) {
+			QuickBar.removeClass('fixed');
+		}else{
+			QuickBar.addClass('fixed');
+		}
+	});
 
 
-
-//header
-// 메인 사이트 플루팅 동작
-const WindowH = $(window).innerHeight(); // 윈도우 높이
-const QuickBar = $('#quickBar');
-const QuickBarH = QuickBar.innerHeight(); // 퀵 높이
-const footerT = $('#footer').offset().top; //푸터 컨텐츠 높이
-
-//scroll event
-$(document).scroll(function () {
-	const scrollPoint = $(window).scrollTop(); // 현제 스크롤 위치 
-	const scrollPointH = $(window).scrollTop() + WindowH; // 현제 스크롤 위치 // 현제 스크롤 높이 + 전체 컨텐츠
-	const constrol = 40;
-
-	//메인 페이지 quick bar
-	console.log(footerT + '/' + scrollPointH)
-	
-	if (scrollPointH > footerT) {
-		QuickBar.removeClass('fixed');
-	}else{
-		QuickBar.addClass('fixed');
-	}
-});
-
-
-
+})
 
 
 
