@@ -63,7 +63,7 @@ body{}
 #quickBar .quick_list li a p {font-size:20px;}
 #quickBar .quick_kakao {width:100%;display:block;text-align:center;}
 #quickBar .quick_kakao img {width:100%;}
-#quickBar.fixednone {position: absolute;top:inherit;transform: translateY(-100%);}
+#quickBar.fixednone {position: absolute;top:inherit;transform: translateY(-100%);margin-top:-120px;}
 /*
 #quickBar .quick_kakao .quick_kakao_top {background:#fae101;font-size:12px;}
 #quickBar .quick_kakao .quick_kakao_top span {background:#3b2929;color:#fff;font-size:12px;border-radius:8px;display:block;width:90px;height:19px;margin:0 auto;}

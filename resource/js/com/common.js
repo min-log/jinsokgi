@@ -33,12 +33,12 @@ $(function(){
 	$(document).scroll(function () {
 		const scrollPoint = $(window).scrollTop(); // 현제 스크롤 위치 
 		const scrollPointH = $(window).scrollTop() + WindowH; // 현제 스크롤 위치 // 현제 스크롤 높이 + 전체 컨텐츠
-		const constrol = 40;
+		const constrol = 120; // 띄워서 멈춤
 		const footerT = $('.btn_top').offset().top; //푸터 컨텐츠 높이
 
 		//console.log(footerT + '/' + scrollPoint + '/' + scrollPointH)
 		
-		if (scrollPointH >= footerT + 92) {
+		if (scrollPointH >= footerT + 120) {
 			QuickBar.addClass('fixednone');
 		}else{
 			QuickBar.removeClass('fixednone');
