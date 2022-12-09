@@ -6,10 +6,10 @@ $(function(){
 	let gnbEl = $('#header .gnb > li > a');
 	
 	gnbEl.on('mouseover', function () {
-		$('this').parent('li').find('.deps').stop().slideDown(300);
+		$(this).parent('li').find('.deps').stop().slideDown(300);
 	});
 	gnbEl.on('mouseleave', function () {
-		$('this').parent('li').find('.deps').stop().slideUp(300);
+		$(this).parent('li').find('.deps').stop().slideUp(300);
 	});
 
 
