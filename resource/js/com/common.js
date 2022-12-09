@@ -3,11 +3,19 @@
 header
 ========================================================*/
 $(function(){
-	let gnbEl = document.querySelector('#header .gnb > li > a')
-	gnbEl.addEventListener('mouseover', function () {
-
-		$(this).parent('li').find('.deps').addClass('on')
+	let gnbEl = $('#header .gnb > li > a');
+	
+	gnbEl.on('mouseover', function () {
+		
+		$('this').parent('li').find('.deps').stop().slideDown(300);
+		
 	});
+	gnbEl.on('mouseleave', function () {
+
+		$('this').parent('li').find('.deps').stop().slideUp(300);
+
+	});
+
 
 	
 });
