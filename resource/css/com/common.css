@@ -28,13 +28,13 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 body{}
 .inner {max-width:1474px;width:100%;margin:0 auto;}
 /* header */
-#header {position:absolute;top:0;left:0;padding:48px 0 18px 0;width:100%;z-index:2000;}
+#header {position:absolute;top:0;left:0;padding:48px 0 0 0;width:100%;z-index:2000;}
 #header .inner {max-width:inherit;width:calc(100% - 80px);position:relative;}
 #header .logo {position:absolute;top:0;left:0;z-index:2001;}
 #header .gnb {display: flex;flex-direction: row;justify-content: center;align-items: flex-start;}
 #header .gnb > li {position: relative;}
 #header .gnb > li + li:after {content:'';position:absolute;left:0;top:50%;width:0;height:16px;margin-top:-8px;border-left:2px solid #fff}
-#header .gnb > li > a {height:60px;padding:0 30px;font-size:20px;box-sizing:border-box;display: flex;align-items: center;}
+#header .gnb > li > a {height:60px;padding:0 30px 18px;font-size:20px;box-sizing:border-box;display: flex;align-items: center;}
 #header .gnb .deps {background:#999999;position:absolute;top:100%;margin-top:18px;left:0;width:100%;display:none;}
 #header .gnb .deps li {}
 #header .gnb .deps li + li {border-top:1px solid #fff}
