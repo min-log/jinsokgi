@@ -18,7 +18,7 @@ $(function(){
 function scrollTop() {
 	$('html, body').stop().animate({
 		scrollTop: '0'
-	}, 300);
+	}, 500);
 }
 
 
@@ -38,7 +38,7 @@ $(function(){
 
 		//console.log(footerT + '/' + scrollPoint + '/' + scrollPointH)
 		
-		if (scrollPointH >= footerT + 120) {
+		if (scrollPointH >= footerT - constrol) {
 			QuickBar.addClass('fixednone');
 		}else{
 			QuickBar.removeClass('fixednone');
