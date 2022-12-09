@@ -39,7 +39,7 @@ $(function(){
 		const footerT = $('#footer').offset().top; //푸터 컨텐츠 높이
 
 		//메인 페이지 quick bar
-		console.log(footerT + '/' + scrollPoint)
+		console.log(footerT + '/' + scrollPoint + '/' + scrollPointH)
 		
 		if (scrollPoint >= footerT) {
 			QuickBar.addClass('fixed');
