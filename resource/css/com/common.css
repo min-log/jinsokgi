@@ -28,13 +28,13 @@ a.skip01:hover,a.skip01:focus,a.skip01:active,a.skip02:hover,a.skip02:focus,a.sk
 body{}
 .inner {max-width:1474px;width:100%;margin:0 auto;}
 /* header */
-#header {position:absolute;top:0;left:0;padding:48px 0 0 0;width:100%;z-index:2000;}
+#header {}
 #header .inner {max-width:inherit;width:calc(100% - 80px);position:relative;}
-#header .logo {position:absolute;top:0;left:0;z-index:2001;}
+#header .logo {position:absolute;top:0;left:0;z-index:2001;width:108px;height:75px;background: url(../../images/com/logo.png) center no-repeat;background-size:cover;}
 #header .gnb {display: flex;flex-direction: row;justify-content: center;align-items: flex-start;}
 #header .gnb > li {position: relative;padding-bottom:18px;}
 #header .gnb > li > a {height:60px;padding:0 30px;font-size:20px;box-sizing:border-box;display: flex;align-items: center;position:relative;}
-#header .gnb > li + li > a:after {content:'';position:absolute;left:0;top:50%;width:0;height:16px;border-left:2px solid #fff;transform:translateY(-50%);}
+#header .gnb > li + li > a:after {content:'';position:absolute;left:0;top:50%;width:0;height:16px;border-left:2px solid #999;transform:translateY(-50%);}
 
 #header .gnb .deps {position:absolute;top:100%;left:0;width:100%;display:none;}
 #header .gnb .deps li {background:#999999;}
