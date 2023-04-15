@@ -1,6 +1,6 @@
 # jinsokgi
 
-http://진속.com/
+http://진속기.com
 
 반응형 홈페이지 
 
